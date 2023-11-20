@@ -15,8 +15,7 @@ console.log('Test - should say "Hello World!"', hello());
 // 2. Function to return an personalized hello, using the `name` argument.
 //    for example 'Hello, Jo!', or 'Hello, Stacy!'
 function helloName(name) {
-  let title = "Hello, "+name+" !";
-  return title;
+  return `Hello, ${name}!`;
 }
 // Remember to call the function to test
 console.log(helloName('Ashleigh'));
@@ -42,17 +41,18 @@ return multiply;
 // 5. Function that will return true if a number is positive, 
 //    or greater than zero, and false otherwise
 function isPositive(number) {
-  let number = 1;
-  if (number > 0) {
+  let Int = 0;
+  if (Int <= 7) {
     console.log(number);
-    return isPositive;
-    if (number < 0) {
-      return isNegative;
-    }
+    return true;
   }
-
-
+  else {console.log (number);
+  return false;
+  }
 }
+
+
+
 // Call the function to test each outcome (true & false) 
 // Write a separate console.log statement for each outcome
 
